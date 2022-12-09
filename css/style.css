@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: url('https://picsum.photos/1500/700');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+    margin-bottom: 300px;
+}
+
+.nav-l h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.nav-l {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-l img {
+    border: 0;
+    border-radius: 40px;
+    margin-top: -10px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-right: -100px;
+}
+
+.nav ul li a {
+    color: #fff;
+}
+
+.btn {
+    border: 0;
+    border-radius: 20px;
+    background: aquamarine;
+    color: #fff;
+    padding: 16px 32px;
+
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.markaz h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.markaz p {
+    font-size: 15px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: rgb(251, 232, 232);
+}
+
+.site {
+    padding: 16px 32px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 40px;
+
+}
+
+.bt {
+    padding: 16px 32px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 40px;
+}
+
+.buttom {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.site:hover {
+    box-shadow: 2px 2px 22px #999;
+}
+
+.bt:hover {
+    box-shadow: 2px 2px 22px #999;
+}
+
+.a {
+    display: grid;
+    place-items: center;
+}
+
+.a a {
+    color: #fff;
+}
+
+.a a::before {
+    content: '';
+    width: 2px;
+    height: 20px;
+    background-color: rgb(246, 236, 236);
+    display: inline-block;
+    padding: 20px 0 0 0;
+}
+
+.a a span {
+    background-color: transparent;
+    color: #999;
+}
+
+.hero {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    background-color: darkblue;
+    color: #999;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 15px;
+    margin-bottom: 24px;
+
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(91, 77, 77);
+    margin-bottom: 50px;
+}
+
+.img,
+.imeag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons img {
+    width: 100px;
+
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url('https://picsum.photos/333');
+}
+
+.marketing {
+    text-align: center;
+}
+
+.marketing h1 {
+    color: #fff;
+}
+
+.marketing svg {
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0 30px 0;
+    background: rgb(252, 231, 231);
+    border: 1px solid rgb(246, 226, 226);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.h {
+    width: 300px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.p {
+    width: 500px;
+    line-height: 150%;
+    font-size: 15px;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin: 30px 0 40px 0;
+    justify-content: center;
+}
+
+.photo {
+    background-color: #999;
+    padding: 300px 180px;
+}
+
+.uhh{
+    animation: animate 4s linear 1;
+    animation-direction: reverse;
+    position: absolute;
+    
+}
+
+@keyframes animate {
+    0% {
+        background-color: #999;
+        overflow: scroll auto;
+        padding: 300px 180px;
+        transform: perspective(2000px) translateX(1px) rotateX(0deg) scale(0.5);
+        margin-top: 30px;
+        margin-bottom: 100px;
+        
+    }
+    
+    100% {
+        margin: 0 90px;
+        padding: 320px 240px;
+        margin-top: 90px;
+        margin-bottom: 100px;
+        transform: (0px) translateX(120px) rotateX(9deg) scale(.1);
+        background-color: violet;
+        animation-play-state: paused;
+    }
+}
